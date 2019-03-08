@@ -1,0 +1,74 @@
+# programa carro
+
+#Descrevendo as caracteristicas do carro:
+
+class car:
+    def __init__(self):
+        self.pas=0 #passageiros
+        self.km=0 #kilometragem
+        self.fuel=0 #combustivel
+        self.lim_pas=2 #limite de passageiros que o carro comporta
+        self.lim_fuel=10 # limite de combustível que o carro comporta
+        
+        
+        
+    #função para entrar passageiros    
+    def entrar (self):  
+        if self.pas<self.lim_pas:
+            self.pas+=1
+        else:
+            print ("fail:limite de pessoas atingido")
+    #função para sair pessoas do carro   
+    def tirar (self):
+        if self.pas > 0:
+            self.pas-=1
+        else:
+            print("fail:não há ninguém no carro" )
+    
+    #função para colocar gasolina no carro       
+    def abastecer(self,qtd):
+        self.fuel+=qtd
+        if (self.fuel>self.lim_fuel):
+            self.fuel=self.lim_fuel
+        
+    #função para dirigir o carro
+    def drive(self,distancia):
+        if self.pas==0:
+            print("fail:nao ha ninguém no carro")
+            return
+        fuel_needed=distancia
+        if (self.fuel>=distancia/10):
+            self.km+=distancia
+            self.fuel-=fuel_needed
+        else:
+            print("fail:gasolina insuficiente")
+    
+    #criando o carro(Juntando todos os elementos do carro)        
+    def __str__(self):
+        return("pas:"+str(self.pas)+",fuel:"+str(self.fuel)+"km:"+str(self.km))
+        
+#carro é a função carro(chama a função)
+carro=car()
+line=" "
+print("digite show,in,out,fuel_qtd,drive_dist, ou end:")
+
+#Esse bloco quebra a linha e encaminha para o carro para dá o comando
+while (line != "end"):
+    line=input()
+    ui=line.split(" ")  #quebra a linha em varios pedaços
+    
+    if ui[0]=="end":
+        break
+    elif ui[0]=="show":
+        print(carro)
+    elif ui[0]=="in":
+        carro.entrar()
+    elif ui[0]== "out":
+        carro.tirar()
+    elif ui[0]=="fuel":
+        carro.abastecer(int(ui[1]))
+    elif ui[0]=="drive":
+        carro.drive(int(ui[1]))
+    else:
+        print ("fail:comando invalido")
+        
