@@ -1,0 +1,69 @@
+class calculadora:
+    def __init__(self,batMax):
+        self.bateria=0
+        self.limBateria=batMax
+        
+    def sum(self,a,b):
+        if (self.bateria>0):
+            self.bateria-=1
+            return a+b
+        else:
+            return "Bateria insuficiente"
+        
+    def div(self,a,b):
+        if (self.bateria>0):
+            self.bateria-=1
+            if (b==0):
+                return("Divisao por zero")
+            return a/b
+        else:
+            return "Bateria insufuciente"
+        
+    def multi(self,a,b):
+        if (self.bateria>0):
+            self.bateria-=1
+            return a*b
+        else:
+            return"Bateria insuficiente"
+            
+            
+    def charg(self,m):
+        self.bateria+=m
+        if self.bateria >self.limBateria:
+            self.bateria=self.limBateria
+    def __str__(self):
+        return "bateria:"+ str(self.bateria) +"/"+ str(self.limBateria)
+    
+calc=calculadora(0)   
+print("digite init_maxCarga,Charg_value,sum_a_b,div_a_b,mult_a_b,show ou end") 
+line=" "
+while line!="end":
+    line=input()
+    ui=line.split(" ")
+    
+    if ui[0]=="end":
+        break
+    elif ui[0]=="show":
+        print (calc)
+    elif ui[0]=="init":
+        calc=calculadora(int(ui[1]))
+    elif ui[0]=="charg":
+        calc.charg(int(ui[1]))
+    elif ui[0]=="sum":
+        a=calculadora(int(ui[1]))
+        b=calculadora(int(ui[2]))
+        print (a+b)
+    elif ui[0]=="div":
+        a=calculadora(int(ui[1]))
+        b=calculadora(int(ui[2]))
+        print (a/b)
+    elif ui[0]=="mult":
+        a=calculadora(int(ui[1]))
+        b=calculadora(int(ui[2]))
+        print (a*b)
+    else:
+        print ("comando invalido")
+        
+            
+                
+        
