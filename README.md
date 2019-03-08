@@ -4,7 +4,8 @@ Relatório
 
 __________________________________________________________________________________________________________________________________
 01-Carro
-O que eu fiz
+_______________
+O que eu fiz:
 Fiz o codigo completo, funcionando perfeitamente!
 
 
@@ -17,8 +18,7 @@ Aprendi o conceito de orientação objeto, que é necessário ensinar o objeto o
 Aprendi também que finalmente, programar pode ser divertido.
 Aprendi novos conceitos, que nunca tinha visto, novas ferramentas.
 
-_O que tenho dificuldades:
-
+O que tenho dificuldade:
 Minha maior dificuldade, ainda é, quando surge erros , que não consigo entender todos, e acabo perdendo muito tempo tentando encontrar o problema.
 
 Quanto tempo levei para fazer a atividade:
