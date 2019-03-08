@@ -4,16 +4,15 @@ Relatório
 
 __________________________________________________________________________________________________________________________________
 01-Carro
-_O que eu fiz
+O que eu fiz
 Fiz o codigo completo, funcionando perfeitamente!
 
 
-_Com quem e como fiz:
-
+Com quem e como fiz:
 Fiz o código a partir das aulas em sala e assistindo a aula pelo youtube, para dúvidas. Também li a apostila, e tirei dúvidas na internet.
 O meu código apresentava erro, e corrigi com o professor em sala.Era apenas um erro simples, onde era para por o sinal de + eu coloquei virgula.
 
--O que eu aprendi:
+O que aprendi:
 Aprendi o conceito de orientação objeto, que é necessário ensinar o objeto os comandos, para que ele possa executar alguma ação.
 Aprendi também que finalmente, programar pode ser divertido.
 Aprendi novos conceitos, que nunca tinha visto, novas ferramentas.
