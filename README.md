@@ -27,3 +27,15 @@ Estudei alguns exemplos na internet,tirei dúvidas com colegas de sala.
 Demorei em torno de 10 horas.
 
 ____________________________________________________________________________________________________________________________________
+02-Calculadora
+________________________________________
+O que eu fiz:
+Fiz o código completo,mas está apresentando alguns erros quando coloco para somar.Estou verificando para poder corrigir.
+Com que e como fiz:
+Fiz em sala,a partir do codigo do professor e com minha colega Patricia, tiramos duvidas em sala.Em casa, assistir novamente a aula do professor, e pesquisei alguns exemplos na internet.Ainda estou trabalhando no código, afim de descobrir o erro.
+O que aprendi:
+Reforçou o conteúdo da aula passada, e as ferramentas utilizadas no codigo do carro.
+O que tenho dificuldade:
+Minha dificuldade ainda é solucionar erros que surgem.
+Quanto tempo levei:
+Demorei em média, até o momento  5 horas, mas estou estudando mais, para solucionar o erro encontrado.
