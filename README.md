@@ -31,8 +31,7 @@ ________________________________________________________________________________
 ________________________________________
 O que eu fiz: fiz o codigo completo e está funcionando.
 Com que e como fiz:
-Fiz em sala,a partir do codigo do professor e com minha colega Patricia, tiramos duvidas em sala.Em casa, assistir novamente a aula do professor, e pesquisei alguns exemplos na internet.Ainda estou trabalhando no código, afim de descobrir o erro.
-
+Fiz em sala,a partir do codigo do professor e com minha colega Patricia, tiramos duvidas em sala.Em casa, assistir novamente a aula do professor, e pesquisei alguns exemplos na internet.
 O que aprendi:
 Reforçou o conteúdo da aula passada, e as ferramentas utilizadas no codigo do carro.
 
