@@ -1,0 +1,90 @@
+import java.util.Scanner;
+
+//classe principal,onde cria-se o que a calculadora tem
+public class Calcular {
+    int bateriaMax;
+    int bateria;
+    int den;
+    int num;
+
+
+    public Calcular(int bateriaMax){
+        this.bateriaMax=bateriaMax;   //criando variavel
+        this.bateria=bateria;
+    }
+    void charg(int value){   //definindo  carga máxima da bateria,mesmo que tente colocar carga excessiva
+        if (value<0)
+            return;
+        this.bateria += value;
+        if (this.bateria>this.bateriaMax)
+            this.bateria=this.bateriaMax;
+    }
+    boolean usarbateria(){  //avisar se tem carga na bateria
+        if (this.bateria==0){
+            System.out.println("bateria insuficiente");
+            return false;
+        }
+        this.bateria-=1;
+        return true;
+    }
+    String soma(int a, int b){ //fazer a soma e usar a bateria
+        if(usarbateria())
+            return " "+(a+b);
+        return "";
+    }
+    String div(int a, int b){ //avisar se a divisão for por zero
+        if (usarbateria())
+            return " ";
+        if (den==0) {
+            System.out.println ("divisão por zero");
+            return "";
+        }
+        return ""+(num/den);
+    }
+    public String toString(){
+        return "battery ="+ this.bateria;
+    }
+}
+class Controller{
+    Calcular calc;
+    static Scanner scan = new Scanner(System.in);
+
+    public Controller() {
+        calc = new Calcular(0);
+    }
+
+    // funcao  que recebe os dados e retorna a resposta
+    public void shell(String line){
+        String ui[] = line.split(" ");
+        if(ui[0].equals("help"))
+            System.out.println(" Faça sua oção: soma _a _b; show; div _a _b; charge _value");
+        else if(ui[0].equals("init"))
+            this.calc = new Calcular(Integer.parseInt(ui[1]));
+        else if(ui[0].equals("show"))
+            System.out.println(calc);
+        else if(ui[0].equals("charge")){
+            calc.charg(Integer.parseInt(ui[1]));
+        }else if(ui[0].equals("sum")){
+            String value = calc.soma(Integer.parseInt(ui[1]), Integer.parseInt(ui[2]));
+            if(!value.equals(""))
+                System.out.println(value);
+        }else if(ui[0].equals("div")){
+            String value = calc.div(Integer.parseInt(ui[1]), Integer.parseInt(ui[2]));
+            if(!value.equals(""))
+                System.out.println(value);
+        }else
+            System.out.println("fail: comando invalido");
+    }
+
+    public static void main(String[] args) {
+        Controller cont = new Controller();
+        while(true){
+            String line = scan.nextLine();
+            System.out.println("$" + line);
+            if(line.equals("end"))
+                break;
+            cont.shell(line);
+        }
+    }
+}
+
