@@ -40,3 +40,9 @@ Minha dificuldade ainda é solucionar erros que surgem.
 
 Quanto tempo levei para daer esta atividade:
 Demorei em média, até o momento  5 horas, mas estou estudando mais, para solucionar o erro encontrado.
+__________________________________________________________
+03-Calculadora em java
+Tive um pouco de dificuldade em passar o código para java, pois não entendo muito bem a linguagem,mas minha amiga Patrícia me ajudou, e tirou minhas dúvidas.Também assistir a aula no youtube.Li a postila e estou fazendo um curso online pelo youtube, que ensina a linguagem.Demorei umas 10 horas para conseguir fazer o código.
+__________________________________________________________________
+04-Pety
+Ainda não consigo programar sozinha em java, tenho dificuldade com a linguagem, consigo programar com ajuda,olhando os vídeos, e com a ajuda da Patricia.Mas sozinha, eu não consigo ainda, me atrapalho e dá muito erros.Para este codigo, eu estudei pouco, tive muito problemas no trabalho, não tive como estudar durante o dia no meu trabalho, pq foi muito corrido, e a noite chego muito cansada.Confesso que me dediquei pouco nessa ultima semana,estudei no máximo uma hora por dia, e novamente não consegui programar sozinha,recorrir ao youtube e a patricia que sempre tira minhas dúvidas no codigo.Mas não está rodando, apresenta erros.Que eu não consegui resolver.
