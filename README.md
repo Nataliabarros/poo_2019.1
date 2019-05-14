@@ -46,3 +46,6 @@ Tive um pouco de dificuldade em passar o código para java, pois não entendo mu
 __________________________________________________________________
 04-Pety
 Ainda não consigo programar sozinha em java, tenho dificuldade com a linguagem, consigo programar com ajuda,olhando os vídeos, e com a ajuda da Patricia.Mas sozinha, eu não consigo ainda, me atrapalho e dá muito erros.Para este codigo, eu estudei pouco, tive muito problemas no trabalho, não tive como estudar durante o dia no meu trabalho, pq foi muito corrido, e a noite chego muito cansada.Confesso que me dediquei pouco nessa ultima semana,estudei no máximo uma hora por dia, e novamente não consegui programar sozinha,recorrir ao youtube e a patricia que sempre tira minhas dúvidas no codigo.Mas não está rodando, apresenta erros.Que eu não consegui resolver.
+______________________________________________________________
+05-Topic
+Consegui fazer o código assistindo a aula no youtub, e olhando o codigo do professor, e lendo a postilha, para entender a estrutura do codigo e pra que serve cada coisa, pois ainda me confundo um pouco. Demorei 10 horas para fazer o codigo.Eu tenho dificuldade em tudo,estou estudando pela apostilha do inicio e assistindo curso no youtub, para conseguir dominar a linguagem.
