@@ -1,0 +1,61 @@
+public class BancoQuixada {
+    int id;
+    String nomeCliente;
+
+
+    public BancoQuixada(int id,String nomeCliente){
+        this.id=id;
+        this.nomeCliente=nomeCliente;
+    }
+
+    @Override
+    public String toString() {
+        return id +":"+nomeCliente;
+    }
+}
+
+class AgenciaQuixada{
+    ArrayList<BancoQuixada>clientes;
+
+    public AgenciaQuixada(int listaCliente){
+        clientes=new ArrayList<BancoQuixada>();
+        for (int i=0; i != listaCliente;i ++)
+            clientes.add(null);
+    }
+    boolean AbrirConta(int id, String nomeCliente){
+        while (true){
+            this.clientes.set(id,new BancoQuixada(id,nomeCliente));
+            return true;
+        }
+
+    }
+
+
+}
+
+import java.util.Scanner;
+
+public class Controller {
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+        AgenciaQuixada agenciaQuixada=new AgenciaQuixada(0);
+
+        while (true){
+            String line=scanner.nextLine();
+            System.out.println("$"+ line);
+            String[] ui= line.split(" ");
+            if(ui[0].equals("end")){
+                break;
+            }else if (ui[0].equals("init")){
+                System.out.println(agenciaQuixada);
+            }else {
+                System.out.println("comando invalido");
+            }
+            }
+
+
+        }
+
+
+
+    }
