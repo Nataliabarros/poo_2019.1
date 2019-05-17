@@ -1,0 +1,73 @@
+import sun.font.TrueTypeFont;
+
+import java.util.Scanner;
+
+public class MinhaCont {
+    int numeroConta;
+    float verSaldo;
+    float fazerDeposito;
+    float verTarifas;
+    int fazerSaque;
+    String extrato;
+
+
+    public MinhaCont(int numeroConta, float verSaldo, float fazerDeposito, float verTarifas, String extrato, int fazerSaque) {
+        this.numeroConta = numeroConta;
+        this.verSaldo = verSaldo;
+        this.fazerDeposito = fazerDeposito;
+        this.verTarifas = verTarifas;
+        this.fazerSaque = fazerSaque;
+        this.extrato = extrato;
+
+    }
+
+    @Override
+    public String toString() {
+        return "numero da conta:" + this.numeroConta + "Saldo:" + verSaldo;
+    }
+
+    public void setExtrato(String extrato) {
+        this.extrato = extrato;
+        System.out.println("Abertura da conta, saldo inicial" + verSaldo);
+        System.out.println("Realizar deposito:" + this.fazerDeposito);
+        System.out.println("Realizar saque:" + this.fazerSaque);
+    }
+
+
+
+
+    boolean sacarDeConta(boolean valor) {
+        if (this.verSaldo < valor) {
+            return false;
+            System.out.println("Saldo insuficiente");
+        } else {
+            this.verSaldo -= valor;
+        }
+
+        public void depositarEmConta(boolean valor)
+        this.verSaldo+=valor;
+
+    }
+    public static class controller{
+        public  static void main(String[]args){
+            MinhaCont minhaCont=new MinhaCont();
+            try( Scanner scanner = new Scanner()) {
+
+                while (true) {
+                    String line = scanner.nextLine();
+                    String[] ui = line.split("");
+                    if (ui[0] == ("end")) {
+                        break;
+                    } else if (ui[0] == ("show")) {
+                        System.out.println(minhaCont);
+                    } else if (ui[0] == ("deposito")) {
+                        System.out.println(fazerDeposito);
+
+                    } else if (ui[0] == ("extrato"))
+                        System.out.println(extrato);
+                    }
+            }
+
+
+        }
+    }
