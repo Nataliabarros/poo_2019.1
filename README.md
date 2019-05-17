@@ -49,3 +49,7 @@ Ainda não consigo programar sozinha em java, tenho dificuldade com a linguagem,
 ______________________________________________________________
 05-Topic
 Consegui fazer o código assistindo a aula no youtub, e olhando o codigo do professor, e lendo a postilha, para entender a estrutura do codigo e pra que serve cada coisa, pois ainda me confundo um pouco. Demorei 10 horas para fazer o codigo.Eu tenho dificuldade em tudo,estou estudando pela apostilha do inicio e assistindo curso no youtub, para conseguir dominar a linguagem.
+____________________________________
+06-Conta
+Consegui fazer sozinha olhando pelo livro e por exemplos parecidos na internet.Mas ainda tenho muita dificuldade em entender os erros e a estrutura do programa, fico confusa sobre o que usar para fazer cada coisa.Mas estou aprendendo cada dia mais, reforçando o conteúdo em sala, assistindo os videos novamente. Demorei 4 horas para fazer o código,mas apresenta erros.
+
