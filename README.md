@@ -52,4 +52,8 @@ Consegui fazer o código assistindo a aula no youtub, e olhando o codigo do prof
 ____________________________________
 06-Conta
 Consegui fazer sozinha olhando pelo livro e por exemplos parecidos na internet.Mas ainda tenho muita dificuldade em entender os erros e a estrutura do programa, fico confusa sobre o que usar para fazer cada coisa.Mas estou aprendendo cada dia mais, reforçando o conteúdo em sala, assistindo os videos novamente. Demorei 4 horas para fazer o código,mas apresenta erros.
+_________________________________________________________________________________
+AVALIAÇÃO DE POO
+Em andanmento....
+
 
