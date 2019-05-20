@@ -1,0 +1,85 @@
+   
+  //Contruindo o cliente e suas caracteristicas
+ 
+public class ClientesBanco {
+    String nomeCliente;
+     int cc;
+     int cp;
+
+     public ClientesBanco(String nomeCliente,int cc,int cp){
+         this.nomeCliente=nomeCliente;
+         this.cc=cc;
+         this.cp=cp;
+     }
+
+    public ClientesBanco(int i, int cc, int cp) {
+
+    }
+
+    public ClientesBanco() {
+        String nomeCliente;
+    }
+
+    @Override
+    public String toString() {
+        return  ("nome do cliente:"+nomeCliente+"/n"+"/n"+"conta.c:"+cc+"n/"+"contap:"+cp);
+    }
+}
+
+//Construndo a Conta Mãe
+
+public class ContaC {
+    int numeroconta;
+    double saldo;
+
+    public ContaC(int numeroconta,double saldo){
+        this.numeroconta=numeroconta;
+        this.saldo=saldo;
+    }
+
+    @Override
+    public String toString() {
+        return ("Numero da conta:"+numeroconta+"saldo"+saldo);
+    }
+
+
+
+    }
+    
+   
+
+//Construindo a conta poupança, heranca da conta mãe
+
+public class ContaPoupança extends ContaC {
+    Double porcentagem;
+
+    public ContaPoupança(int numeroconta,double saldo,double porcentagem){
+        super(numeroconta,saldo);
+        this.porcentagem=porcentagem;
+    }
+
+
+    @Override
+    public String toString() {
+        return super.toString()+"ContaPoupança";
+    }
+}
+
+
+//Construindo a conta corrente, herança da conta mãe
+public class ContaCorrente extends ContaC {
+    public int taxa;
+
+    public ContaCorrente(int numeroconta,double saldo,int taxa){
+        super(numeroconta,saldo);
+        this.taxa=taxa;
+
+    }
+
+    @Override
+    public String toString() {
+        return super.toString()+"ContaCorrente";
+    }
+}
+
+
