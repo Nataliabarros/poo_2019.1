@@ -1,0 +1,62 @@
+public class Sistema {
+	int saldo;
+	
+	public void Sistema(int saldo) {
+		this.saldo=saldo;
+		
+	}
+	public String toString() {
+		return " "+ this.saldo;
+	}
+	
+		
+		
+	
+
+
+}
+
+ class Cliente{
+	 String id;
+	 
+	 public void Cliente(String id) {
+		 this.id=id;
+	 }
+	 
+	 public String toString() {
+		 return " " +this.id;
+	 }
+	 
+	 
+	
+}
+
+import java.util.Scanner;
+
+public class Controller {
+
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Digite o valor que tem em caixa:");
+		Sistema sistema=new Sistema(0);
+		while (true) {
+			String line=scanner.nextLine();
+			String ui[]=line.split(" ");
+			
+			if (ui[0].equals("sair")) {
+				break;
+			}else if(ui[0].equals("init")) {
+				sistema=new Sistema(Integer.parseInt(ui[1]));
+					
+				}
+				
+				
+			}
+				
+						
+		}
+		
+		}
+	
+
+}
