@@ -51,8 +51,16 @@ ______________________________________________________________
 Consegui fazer o código assistindo a aula no youtub, e olhando o codigo do professor, e lendo a postilha, para entender a estrutura do codigo e pra que serve cada coisa, pois ainda me confundo um pouco. Demorei 10 horas para fazer o codigo.Eu tenho dificuldade em tudo,estou estudando pela apostilha do inicio e assistindo curso no youtub, para conseguir dominar a linguagem.
 ____________________________________
 06-Conta
-Consegui fazer sozinha olhando pelo livro e por exemplos parecidos na internet.Mas ainda tenho muita dificuldade em entender os erros e a estrutura do programa, fico confusa sobre o que usar para fazer cada coisa.Mas estou aprendendo cada dia mais, reforçando o conteúdo em sala, assistindo os videos novamente. Demorei 4 horas para fazer o código,mas apresenta erros.
+Consegui fazer sozinha olhando pelo livro e por exemplos parecidos na internet.Mas ainda tenho muita dificuldade em entender os erros e a estrutura do programa, fico confusa sobre o que usar para fazer cada coisa.Mas estou aprendendo cada dia mais, reforçando o conteúdo em sala, assistindo os videos novamente. Demorei 4 horas para fazer o código.
 _________________________________________________________________________________
+07-
+Nos últimos dias, reli a apostila e fiz os exercicios dela, e aprendi bastante, depois das aulas, desta cez ficou mais claro o conteúdo da apostila. Os desenhos das classes nas aulas, tbm facilitou muito o entendimento. Este exercicio eu comecei a fazer na sala, junto com a Welyda, que me ajjudou tirando dúvidas.Terminei em casa, olhando os vídeos das aulas,mas tive um problema no código que não consegui resolver, então liguei para o welyda e ela me tirou a dúvida. Demorei 2 dias para terminar.Achei muito complicado esta tarefa.
+__________________________________________________________________________________
+08-Empresa
+Este exercicio eu achei mais tranquilo, pois eu já tinha entendido como funciona herança,como organizar as classe, com os atributos, e como fazer os métodos. Ainda senti um pouco de dificuldade na hora de fazer o controller, pois ainda tenho dúvidas na escrita do código. A lógica eu entendo perfeitamente, mas quando vou colocar no código, me atrapalho um pouco. Tive que olhar os outros códigos para finalizar o controlle. Este eu demorei umas 6 horas para finalizar.
+_________________________________________________________________________________
+09-Calculo salário
+Este exercício foi um dos mais fáceis que achei, demorei só 3 horas para finalizar, fiz sozinha e finalmente, estou conseguindo concertar os erros sozinha. Fiz completo e está rodando. Muito feliz ! Rsrs
 
 
 
