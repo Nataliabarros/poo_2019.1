@@ -1,6 +1,7 @@
 import sun.font.TrueTypeFont;
 
 import java.util.Scanner;
+//Classe conta
 
 public class MinhaCont {
     int numeroConta;
@@ -10,7 +11,7 @@ public class MinhaCont {
     int fazerSaque;
     String extrato;
 
-
+//variáreis instanciando
     public MinhaCont(int numeroConta, float verSaldo, float fazerDeposito, float verTarifas, String extrato, int fazerSaque) {
         this.numeroConta = numeroConta;
         this.verSaldo = verSaldo;
@@ -20,12 +21,12 @@ public class MinhaCont {
         this.extrato = extrato;
 
     }
-
+//metodos
     @Override
     public String toString() {
         return "numero da conta:" + this.numeroConta + "Saldo:" + verSaldo;
     }
-
+//metodo extrato
     public void setExtrato(String extrato) {
         this.extrato = extrato;
         System.out.println("Abertura da conta, saldo inicial" + verSaldo);
@@ -35,7 +36,7 @@ public class MinhaCont {
 
 
 
-
+//metodo sacar
     boolean sacarDeConta(boolean valor) {
         if (this.verSaldo < valor) {
             return false;
@@ -43,19 +44,21 @@ public class MinhaCont {
         } else {
             this.verSaldo -= valor;
         }
+//metodo depositar
 
         public void depositarEmConta(boolean valor)
         this.verSaldo+=valor;
 
     }
     public static class controller{
-        public  static void main(String[]args){
-            MinhaCont minhaCont=new MinhaCont();
-            try( Scanner scanner = new Scanner()) {
+        public  static void main(String[]args){        //criando lista
+            MinhaCont minhaCont=new MinhaCont();        //criando objeto
+            try( Scanner scanner = new Scanner()) {      //criando um leitor 
 
-                while (true) {
-                    String line = scanner.nextLine();
-                    String[] ui = line.split("");
+                while (true) {                               //condição true
+                    String line = scanner.nextLine();        //ler do teclado
+                    String[] ui = line.split("");            //posição
+                    
                     if (ui[0] == ("end")) {
                         break;
                     } else if (ui[0] == ("show")) {
