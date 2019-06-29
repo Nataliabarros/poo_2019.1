@@ -2,6 +2,10 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
+
+// criando a classe cliente e seus tributos
+
 class Cliente {
     float saldo;
     String id;
@@ -20,6 +24,8 @@ class Cliente {
     }
 }
 
+
+//criando a classe sistema e seus atributos
 class Sistema {
     float saldo;
 
@@ -29,6 +35,7 @@ class Sistema {
         this.saldo = saldo;
         this.clientes = new ArrayList<Cliente>();
     }
+// metodo cadastrar(obs cada cliente possui um id)
 
     void cadastrar(Cliente cliente) {
 
@@ -38,6 +45,8 @@ class Sistema {
         }
         clientes.add(cliente);
     }
+    
+    //para não cadastrar o msm cliente 2x
 
     Cliente findCliente(String id){
 
@@ -47,6 +56,8 @@ class Sistema {
         }
         return null;
     }
+    
+    //metodo emprestar dinheiro
 
     void emprestar(String id, float saldo){
         Cliente cli = findCliente(id);
