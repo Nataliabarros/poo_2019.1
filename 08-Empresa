@@ -1,4 +1,4 @@
-public class Funcionario {
+public class Funcionario {             //os atributos são privados, para não serem modificados(Criado a classe funcionario)
     private String nome;
     protected double salario;
     protected char titulo;
@@ -7,6 +7,9 @@ public class Funcionario {
         this.salario = salario;
         this.titulo = 'F';
     }
+    
+    //Set pega/ get usa(Por serem privados, precisa)
+    
     public String getNome(){
         return nome;
     }
@@ -24,31 +27,31 @@ public class Funcionario {
 import java.util.ArrayList;
 
 public class Empresa {
-    ArrayList<Funcionario> fs ;
+    ArrayList<Funcionario> listaFunc ;           //criando uma lista de funcionario
 
     public Empresa() {
-        fs = new ArrayList<Funcionario>();
+        listaFun = new ArrayList<Funcionario>();             //lista de funcionario criada
     }
     public void addFuncionario(Funcionario f) {
-        fs.add(f);
+        listaFunc.add(f);                                    //adicionando funcionarios na lista
     }
-    public double calcFolha() {
+    public double calcFolha() {                               // calculando a folha de pagamento
         double folha = 0.0;
-        for(Funcionario f : fs)
+        for(Funcionario f : listaFunc)
             folha += f.getSalario();
         return folha;
     }
-    public void removerFuncionario(String nome) {
-        for(Funcionario fun : fs) {
+    public void removerFuncionario(String nome) {                //removendo funcionario da empresa da lista de funcionaio fum)
+        for(Funcionario fun : listaFunc) {
             if(fun.getNome().equals(nome)) {
-                fs.remove(fun);
+                listaFunc.remove(fun);
             }
         }
     }
     @Override
     public String toString() {
         String saida = " ";
-        for(Funcionario f : fs)
+        for(Funcionario f : listaFunc)
             saida += f +"\n";
         return saida;
     }
