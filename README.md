@@ -60,7 +60,7 @@ ________________________________________________________________________________
 Este exercicio eu achei mais tranquilo, pois eu já tinha entendido como funciona herança,como organizar as classe, com os atributos, e como fazer os métodos. Ainda senti um pouco de dificuldade na hora de fazer o controller, pois ainda tenho dúvidas na escrita do código. A lógica eu entendo perfeitamente, mas quando vou colocar no código, me atrapalho um pouco. Tive que olhar os outros códigos para finalizar o controlle. Este eu demorei umas 6 horas para finalizar.
 _________________________________________________________________________________
 09-Calculo salário
-Este exercício foi um dos mais fáceis que achei, demorei só 3 horas para finalizar, fiz sozinha e finalmente, estou conseguindo concertar os erros sozinha. Fiz completo e está rodando. Muito feliz ! Rsrs
+Este exercício foi um dos menos dificil, demorei umas 4 horas para finalizar, começei  sozinha, e quando tinha dificuldade , ligava para welyda e finalmente, estou conseguindo concertar os erros.  Neste exercício aprendi mais sobre mapas, que usa para dá chaves,  e organiza objetos dentro dele,uma espécie de lista. Também sobre classes abstratas, que impede que ela seja instanciada. 
 
 
 
