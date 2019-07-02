@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 abstract class Funcionario {
 
-    protected String nome;          // está protegido para que só possa ser vizivle pela propria classe e sub classes
+    protected String nome;          // está protegido para que só possa ser visto pela propria classe e sub classes
     public int qtd_diarias;
     public int max_diarias;
     protected double bonus;
@@ -125,7 +125,7 @@ public class Main {
 
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
-            HashMap<String, Funcionario> mapaf = new HashMap<String,Funcionario>();  //usando mapas, liga cada valor a uma chava
+            HashMap<String, Funcionario> mapaf = new HashMap<String,Funcionario>();  //usando mapas, liga cada valor a uma chave
             while (true){
                 String line = sc.nextLine();
                 String [] ui = line.split(" ");
@@ -164,10 +164,7 @@ public class Main {
                     }else {
                         System.out.println("comando invalido");
                     }
-                }catch(NullPointerException e) {
-                    System.out.println("fail: Funcionario nao adicionado");
-                }catch(RuntimeException e) {
-                    System.out.println("fail: Paramentos incorretos");
+                
 
                 }
             }
