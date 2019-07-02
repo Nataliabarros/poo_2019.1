@@ -53,14 +53,14 @@ ____________________________________
 06-Conta
 Consegui fazer sozinha olhando pelo livro e por exemplos parecidos na internet.Mas ainda tenho muita dificuldade em entender os erros e a estrutura do programa, fico confusa sobre o que usar para fazer cada coisa.Mas estou aprendendo cada dia mais, reforçando o conteúdo em sala, assistindo os videos novamente. Demorei 4 horas para fazer o código.
 _________________________________________________________________________________
-07-
-Nos últimos dias, reli a apostila e fiz os exercicios dela, e aprendi bastante, depois das aulas, desta cez ficou mais claro o conteúdo da apostila. Os desenhos das classes nas aulas, tbm facilitou muito o entendimento. Este exercicio eu comecei a fazer na sala, junto com a Welyda, que me ajjudou tirando dúvidas.Terminei em casa, olhando os vídeos das aulas,mas tive um problema no código que não consegui resolver, então liguei para o welyda e ela me tirou a dúvida. Demorei 2 dias para terminar.Achei muito complicado esta tarefa.
+07-Agiota
+Nos últimos dias, reli a apostila e fiz os exercicios dela, e aprendi bastante, depois das aulas, desta vez ficou mais claro o conteúdo da apostila. Os desenhos das classes nas aulas, tbm facilitou muito o entendimento. Este exercicio eu comecei a fazer na sala, junto com a Welyda, que me ajjudou tirando dúvidas.Terminei em casa, olhando os vídeos das aulas,mas tive um problema no código que não consegui resolver, então liguei para o welyda e ela me tirou a dúvida. Demorei 2 dias para terminar.Achei muito complicado esta tarefa.
 __________________________________________________________________________________
 08-Empresa
-Este exercicio eu achei mais tranquilo, pois eu já tinha entendido como funciona herança,como organizar as classe, com os atributos, e como fazer os métodos. Ainda senti um pouco de dificuldade na hora de fazer o controller, pois ainda tenho dúvidas na escrita do código. A lógica eu entendo perfeitamente, mas quando vou colocar no código, me atrapalho um pouco. Tive que olhar os outros códigos para finalizar o controlle. Este eu demorei umas 6 horas para finalizar.
+Este exercicio eu achei mais tranquilo, pois eu já tinha entendido como funciona herança,como organizar as classe, com os atributos, e como fazer os métodos. Ainda senti um pouco de dificuldade na hora de fazer o controller, pois ainda tenho dúvidas na escrita do código. A lógica eu entendo perfeitamente, mas quando vou colocar no código, me atrapalho um pouco. Tive que olhar os outros códigos para finalizar o controlle. Este eu demorei umas 6 horas para finalizar. Ajudou um pouco , ter a apostia, pq tem o código desse  problema.
 _________________________________________________________________________________
 09-Calculo salário
-Este exercício foi um dos menos dificil, demorei umas 4 horas para finalizar, começei  sozinha, e quando tinha dificuldade , ligava para welyda e finalmente, estou conseguindo concertar os erros.  Neste exercício aprendi mais sobre mapas, que usa para dá chaves,  e organiza objetos dentro dele,uma espécie de lista. Também sobre classes abstratas, que impede que ela seja instanciada. 
+Este exercício foi um dos menos dificil, demorei umas 4 horas para finalizar, começei  sozinha, e quando tinha dificuldade , ligava para welyda e finalmente estou conseguindo concertar os erros.  Neste exercício aprendi mais sobre mapas, que usa para dá chaves,  e organiza objetos dentro dele,uma espécie de lista. Também sobre classes abstratas, que impede que ela seja instanciada.Tbm fixou o conteúdo de herança e como usar isso nas classes.
 
 
 
