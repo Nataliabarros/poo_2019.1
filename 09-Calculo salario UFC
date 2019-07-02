@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 abstract class Funcionario {
 
-    protected String nome;
+    protected String nome;          // está protegido para que só possa ser vizivle pela propria classe e sub classes
     public int qtd_diarias;
     public int max_diarias;
     protected double bonus;
@@ -33,7 +33,7 @@ abstract class Funcionario {
 
 }
 //criando tipo de funcionario servidor
-abstract class Servidor extends Funcionario {
+abstract class Servidor extends Funcionario { // está abstrata para impedir que ela possa ser instanciada.Serve para o poliformismo e herança
 
     private int nivel;
 
@@ -125,7 +125,7 @@ public class Main {
 
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
-            HashMap<String, Funcionario> mapaf = new HashMap<String,Funcionario>();
+            HashMap<String, Funcionario> mapaf = new HashMap<String,Funcionario>();  //usando mapas, liga cada valor a uma chava
             while (true){
                 String line = sc.nextLine();
                 String [] ui = line.split(" ");
